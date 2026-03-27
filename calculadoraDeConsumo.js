@@ -17,5 +17,5 @@ function calculadoraDeConsumo(){
     }
     custoMensal = totalPordia * 30;
 
-    console.log("-------RESULTADO-----\nEletrodómestico: ", aparelho,"\nKwh diário: ", totalPordia,"Kwh", "\nCusto diário: $", custoPordia, "\nCusto Mensal: $", custoMensal);
+    console.log("-------RESULTADO-----\nEletrodómestico: ", aparelho,"\nKwh diário: ", totalPordia,"Kwh","\Kwh Mensal: $", custoMensal,"Kwh", "\nCusto diário: $", custoPordia );
 }

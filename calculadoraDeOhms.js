@@ -17,7 +17,7 @@ if(descobrir == 1){
     let voltagem = parseFloat(prompt("Digite o valor da voltagem: "));
     let corrente = parseFloat(prompt("Digite o valor da corrente: "));
     let resistencia = voltagem / corrente;
-    console.log("---------RESULTADO---------\nO valor da resistência é de: ", resistencia);
+    console.log("---------RESULTADO---------\nO valor da resistência é de: ", resistencia, "Ohms");
 }
 
 

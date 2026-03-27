@@ -26,7 +26,7 @@ if(faixas == 4){
 }
     ohm = valorbase * mult;
 
-    console.log("----------RESULTADO------------\nResistência: ", ohm);
+    console.log("----------RESULTADO------------\nResistência: ", ohm, " Ohms");
     console.log("Tolerância: ", tol);
     
 }
