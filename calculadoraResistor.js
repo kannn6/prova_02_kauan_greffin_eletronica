@@ -14,19 +14,19 @@ for(let i = 0;i < faixas;i++){
 let multiplicadores = [1, 10, 100, 1000 , 10000, 100000, 1000000, 10000000, 100000000, 1000000000, 0.1, 0.01];
 let tolerancias = {1: "1%", 2: "2%", 5: "0.5%", 6: "0.25%", 7: "0.1%", 8: "0.05%", 10: "5%", 11: "10%"}
 
-let valorbase, ohm, mult, tol
+let valorbase, ohm, mult, tol;
 if(faixas == 4){
-    valorbase = (cores[0] * 10) + cores[1]
-    mult = multiplicadores[cores[2]] 
-    tol = tolerancias[cores[3]] || "20%"
+    valorbase = (cores[0] * 10) + cores[1];
+    mult = multiplicadores[cores[2]];
+    tol = tolerancias[cores[3]] || "20%";
 }else{
-    valorbase = (cores[0] * 100) + (cores[1]*10) + cores[2]
-    mult = multiplicadores[cores[3]]
-    tol = tolerancias[cores[4]] || "20%"
+    valorbase = (cores[0] * 100) + (cores[1]*10) + cores[2];
+    mult = multiplicadores[cores[3]];
+    tol = tolerancias[cores[4]] || "20%";
 }
-    ohm = valorbase * mult
+    ohm = valorbase * mult;
 
-    console.log("----------RESULTADO------------\nResistência: ", ohm)
-    console.log("Tolerância: ", tol)
+    console.log("----------RESULTADO------------\nResistência: ", ohm);
+    console.log("Tolerância: ", tol);
     
 }
