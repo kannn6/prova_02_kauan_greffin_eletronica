@@ -8,6 +8,6 @@ function calculadoraMultSub(){
     let escalas = [10**9, 10**6, 10**3, 1, 10**-3, 10**-6, 10**-9, 10**-12]
     let nomes = ["G", "MG", "K", "BS", "ML", "MC", "NN", "PC"]
 
-    let resultado = valor*(escalas[medidaAtual]/escalas[converterPara])
+    let resultado = valor*(escalas[medidaAtual - 1]/escalas[converterPara - 1])
     console.log("----------RESULTADO------------\nO resultado é: ", resultado)
 }
