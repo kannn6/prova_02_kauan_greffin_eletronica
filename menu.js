@@ -1,4 +1,4 @@
-let escolha = parseInt(prompt("Digite qual operação deseja fazer:\n1-Calculadora de Consumo\n2-Calculadora de Múltiplos e Submúltiplos\n3-Calculadora de Resistores\n4-Calculadora de Ohms\n5-Calculadora de Resistores em Série e Paralelo\n6-Calculadora de Potência "))
+let escolha = parseInt(prompt("-------OPÇÕES--------\nDigite qual operação deseja fazer:\n1-Calculadora de Consumo\n2-Calculadora de Múltiplos e Submúltiplos\n3-Calculadora de Resistores\n4-Calculadora de Ohms\n5-Calculadora de Resistores em Série e Paralelo\n6-Calculadora de Potência "))
 
 switch(escolha){
 
